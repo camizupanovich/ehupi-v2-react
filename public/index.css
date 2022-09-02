@@ -1,0 +1,192 @@
+:root {
+    --primary: #049ad5;
+    --secondary: #04d1d5;
+    background-color: black;
+  }
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 3rem;
+    color: var(--primary);
+}
+h2{
+    font-size: 3rem;
+    color: var(--primary);
+    text-align: center;
+    margin-top: 20vh;
+}
+h3{
+    font-size: 2rem;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+}
+h4{
+    color: white;
+}
+header{
+    background:none;
+    padding: 1.5rem 0;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    width: 100vw;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navItems{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 0.8rem;
+    transition: 1s;
+}
+.navItems:hover{
+    color: var(--primary);
+}
+.navItems:focus{
+    color: var(--primary);
+    text-decoration: underline;
+}
+.btn-nav{
+    padding: 5px 15px;
+    background: none;
+    border: 1.2px solid var(--primary);
+    color: var(--primary);
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 1s;
+}
+.btn-nav:hover{
+    background-color: var(--primary);
+    color: white;
+}
+.hero{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 30% 50%;
+    justify-content: center;
+    align-items: center;
+}
+.img-hero{
+    margin-top: 20vh;
+    width: 100%;
+}
+.hero-description{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: space-around;
+    padding: 25vh 0px;
+}
+.hero-description-card{
+    border: 1px solid var(--primary);
+    padding: 20px;
+    text-align: center;
+    color: #303030;
+}
+
+.services{
+    background-color: #ECECEC;
+    background-size:cover;
+    background-image: url('https://th.bing.com/th/id/R.0c593dea86cf2b31998701870ebb6d44?rik=92fPCngtTwEqzw&pid=ImgRaw&r=0');
+    position: relative;
+    z-index: -1;
+    width: 100vw;
+}
+.wrap-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10vh 0px;
+}
+.curve1{
+    background-color: black;
+    position: relative;
+    height: 10vh;
+    width: 100vw;
+    border-radius: 0 0 50% 50%;
+    z-index: 0;
+}
+.bottom{
+    position:relative;
+    height:20vh;
+}
+.line1{
+    background: rgb(4,209,213);
+    background: linear-gradient(356deg, rgba(4,209,213,1) 0%, rgba(4,153,213,1) 100%);
+    position: absolute;
+    bottom: 0px;
+    height: 20vh;
+    width: 100vw;
+}
+.curve2{
+    background-color: black;
+    position: absolute;
+    bottom:0px;
+    height: 10vh;
+    width: 100vw;
+    border-radius: 50% 50% 0 0;
+}
+.cardService{
+    padding:18px;
+    width:200px;
+    margin:20px;
+    border-radius:30px;
+    box-shadow: 2px 1px 5px rgb(199, 199, 199);
+    display: grid;
+    grid-template-columns: 50% 40%;
+    justify-content:center;
+    align-items:center;
+    color: #303030;
+}
+.about-content{
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content:center;
+    align-items: center;
+    column-gap: 5vh;
+    padding-bottom: 15vh;
+}
+.img-about{
+    width: 100%;
+    border-radius: 10px;
+}
+.text-about{
+    padding: 0px 70px;
+}
+.team-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin: 10vh 0px;
+}
+.team-card{
+    background-color: rgba(255, 255, 255, 0.259);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+}
+.img-team{
+    width: 200px;
+}
+.team-name{
+    color: #404040;
+}
+.team-position{
+    color: #303030;
+}
