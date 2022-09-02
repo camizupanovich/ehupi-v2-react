@@ -1,4 +1,5 @@
 import React from "react";
+import Technologies from "./Technologies";
 
 export default function About(){
 
@@ -59,13 +60,15 @@ We work hard to offer products and services that facilitate the day to day of ou
         {team?.map(t=>
             <div className="team-card" key={t.id}>
                 <img src={t.image} alt={t.name} className='img-team'/> 
-                <p className="team-name">{t.possition}</p>
-                <p className="team-position">{t.name}</p>
+                <p className="team-position">{t.possition}</p>
+                <p className="team-name">{t.name}</p>
             </div>)}
         </div>
             <div className='bottom'><div className='line1'></div><div className='curve2'></div></div>
         </div>
 
+        {/* Technologies */}
+        <Technologies/>
         </>
     )
 }

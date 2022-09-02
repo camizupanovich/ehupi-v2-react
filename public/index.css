@@ -10,6 +10,29 @@ body{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+.tech-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15vh 25vh;
+}
+i{
+    color: #212121;
+}
+span{
+    font-size: 1.1rem;
+    color: #212121;
+}
+.tech-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;/* 
+    border: 2px solid #212121; */
+}
 h1{
     font-size: 3rem;
     color: var(--primary);
@@ -186,7 +209,9 @@ nav{
 }
 .team-name{
     color: #404040;
+    font-size: 0.8rem;
 }
 .team-position{
+    font-size: 1.3rem;
     color: #303030;
 }
