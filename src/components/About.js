@@ -40,10 +40,12 @@ export default function About(){
             We are a group of professional friends
             </h3>
             <img className="img-about" src='img/illustrations/about-1.jpg' alt='ehupi group'/>
-            <img className="img-about" src='img/illustrations/about-2.jpg' alt='ehupi group'/>
+            <img className="img-about pc" src='img/illustrations/about-2.jpg' alt='ehupi group'/>
             <div className="text-about">It all started when one of us, a passionate computer expert with over 20 years of experience, was exchanging ideas with two other friends. We soon realized that we could do much more together than separately. Thus, little by little, we landed the idea and then gathered everything necessary to found ehupi.com.
 Since then, we were joined by many excellent professionals who had already worked on a wide variety of projects, from small websites for personal use to applications for large companies. 
 In short, we are a young company, but with a lot of desire to continue growing and improving, we began to work with the idea that we can change the world. We have a dream that our work can help improve the lives of millions of people.</div>
+
+<img className="img-about mobil" src='img/illustrations/about-2.jpg' alt='ehupi group'/>
 <div className="text-about">
 At all times we have tried to offer the best possible service to our customers, putting all our experience and knowledge at the service of their needs.
 We create ehupi.com with the aim of offering high quality technological solutions that help our customers stay ahead of the competition. 
