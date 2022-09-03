@@ -10,9 +10,9 @@ export default function Home(){
             <h1>
             Are you ready to change the level of your business forever?
             </h1>
-            <h4>
+            <p className="h4">
             We're here to turn your genius into software. You don't need to look any further, we are the team you need.
-            </h4>
+            </p>
             
             <button className='btn-nav'>Get Start</button>
             </div>
