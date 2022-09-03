@@ -12,7 +12,7 @@ export default function App(){
       
       <header className='header-scrolled'>
             <nav>
-            <i onClick={()=>setOpen(!open)} className='bx bx-menu bx-md'></i>
+            <div className='menu'><i onClick={()=>setOpen(!open)} className='bx bx-menu bx-md'></i></div>
             <img src='img/illustrations/logo.png' alt='logo' className='img-logo logo-pc'/>
             <img src='img/illustrations/logo-white.png' alt='logo' className='img-logo logo-mobil'/>
             <div className='nav'>

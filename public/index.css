@@ -1,13 +1,7 @@
 :root {
     --primary: #049ad5;
     --secondary: #04d1d5;
-    background-color: black;
-  }
-  .img-logo{
-    width: 100px;
-  }
-  .bx-menu{
-    display: none;
+    background-color: #090909;
   }
 body{
     padding: 0px;
@@ -16,6 +10,12 @@ body{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+  .menu{
+    display: none;
+  }
+  .img-logo{
+    width: 100px;
+  }
 .tech-container{
     display: flex;
     flex-wrap: wrap;
@@ -35,11 +35,11 @@ p:hover{
     color: white;
 }
 i{
-    color: #212121;
+    color: #303030;
 }
 span{
     font-size: 1.1rem;
-    color: #212121;
+    color: #303030;
 }
 .tech-card{
     display: flex;
@@ -69,13 +69,14 @@ h3{
 }
 h4{
     color: white;
+    padding:0px 30% 0px 0px;
 }
 header{
     background:none;
     padding: 1.5rem 0;
     position: fixed;
     top: 0;
-    background-color: black;
+    background-color: #090909;
     width: 100vw;
 }
 nav{
@@ -125,12 +126,11 @@ nav{
 }
 .hero-description{
     display: grid;
-    grid-template-columns: 25% 25% 25%;
+    grid-template-columns: 35% 35%;
     justify-content: space-evenly;
     padding: 25vh 0px;
 }
 .hero-description-card{
-    box-shadow: 0 0 10px var(--primary);
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -138,7 +138,7 @@ nav{
     flex-direction: column;
     text-align: center;
     border-radius: 10px;
-    color: #303030;
+    color: #848484;
 }
 
 .services{
@@ -157,7 +157,7 @@ nav{
     margin: 10vh 0px;
 }
 .curve1{
-    background-color: black;
+    background-color: #090909;
     position: relative;
     height: 10vh;
     width: 100vw;
@@ -177,7 +177,7 @@ nav{
     width: 100vw;
 }
 .curve2{
-    background-color: black;
+    background-color: #090909;
     position: absolute;
     bottom:0px;
     height: 10vh;
@@ -256,6 +256,18 @@ li{
 ul{
     text-align: center;
 }
+.mobil{
+    display: none;
+}
+.logo-mobil{
+    display: none;
+}
+.modal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
 @media only screen and (max-width:1000px){
     .hero{
         display: flex;
@@ -295,16 +307,16 @@ ul{
         font-size: 2.3rem;
         padding: 0vh 15vw;
     }
-}
-.mobil{
-    display: none;
-}
-.logo-mobil{
-    display: none;
-}
-@media only screen and (max-width:420px){
+    .hero-description{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .hero-description-card{
+        margin-bottom: 30px;
+    }
     .modal-item{
-        margin: 20px;
+        margin: 40px 10px 0px;
     }
     .logo-pc{
         display: none;
@@ -313,12 +325,16 @@ ul{
         display: flex;
     }
     .bx-menu{
-        display: flex;
         color: var(--primary);
+    }
+    .menu{
+        display: flex;
     }
     .nav{
         display: none;
     }
+}
+@media only screen and (max-width:420px){
     .about-content{
         margin: 0px;
         display: flex;
@@ -353,14 +369,6 @@ ul{
         align-items: center;
         justify-content: center;
         padding:7px;
-    }
-    .hero-description{
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-    }
-    .hero-description-card{
-        margin-bottom: 30px;
     }
     h3{
         padding: 20px 30px;
