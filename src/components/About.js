@@ -68,6 +68,7 @@ We work hard to offer products and services that facilitate the day to day of ou
         </div>
 
         {/* Technologies */}
+        <h3>Our technology stack is very broad</h3>
         <Technologies/>
         </>
     )

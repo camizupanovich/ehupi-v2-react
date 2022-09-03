@@ -16,6 +16,19 @@ body{
     justify-content: center;
     padding: 15vh 25vh;
 }
+.work{
+    width: 100vw;
+    text-align: center;
+    background-color: #049ad5;
+    padding: 5vw 0px;
+}
+p{
+    font-size: 1.1rem;
+    transition: 1s;
+}
+p:hover{
+    color: white;
+}
 i{
     color: #212121;
 }
@@ -106,21 +119,26 @@ nav{
 }
 .hero-description{
     display: grid;
-    grid-template-columns: 20% 20% 20%;
-    justify-content: space-around;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: space-evenly;
     padding: 25vh 0px;
 }
 .hero-description-card{
-    border: 1px solid var(--primary);
+    box-shadow: 0 0 10px var(--primary);
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
+    border-radius: 10px;
     color: #303030;
 }
 
 .services{
     background-color: #ECECEC;
     background-size:cover;
-    background-image: url('https://th.bing.com/th/id/R.0c593dea86cf2b31998701870ebb6d44?rik=92fPCngtTwEqzw&pid=ImgRaw&r=0');
+    background-image: url('img/illustrations/bg-wave.png');
     position: relative;
     z-index: -1;
     width: 100vw;
@@ -145,8 +163,8 @@ nav{
     height:20vh;
 }
 .line1{
-    background: rgb(4,209,213);
-    background: linear-gradient(356deg, rgba(4,209,213,1) 0%, rgba(4,153,213,1) 100%);
+    background: var(--secondary);
+    background: linear-gradient(356deg, var(--secondary) 0%, var(--primary) 100%);
     position: absolute;
     bottom: 0px;
     height: 20vh;
@@ -214,4 +232,23 @@ nav{
 .team-position{
     font-size: 1.3rem;
     color: #303030;
+}
+.footer{
+    margin-top: 15vh;
+    padding: 5vh 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #101010;
+    border-radius: 50% 50% 0 0;
+    box-shadow: 0 0 20px #303030;
+}
+li{
+    color: #303030;
+    list-style: none;
+    margin: 5px;
+    text-align: center;
+}
+ul{
+    text-align: center;
 }

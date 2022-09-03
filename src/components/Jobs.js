@@ -4,17 +4,17 @@ export default function Jobs(){
     //let jobsdata= [career,career,career]
     return(
         <>
+            <p className="work">
+            Our teams are multidisciplinary and they communicate via slack.
+            Every day we do dailys where our members talk about the progress and how to improve daily activities. 
+            </p>
         {/* Careers */}
             <h2>
             Work with us
             </h2>
             <h3>
             We work every detail from the beginning!
-            </h3>
-            <p>
-            Our teams are multidisciplinary and they communicate via slack.
-            Every day we do dailys where our members talk about the progress and how to improve daily activities. 
-            </p>{/* 
+            </h3>{/* 
             {jobsdata ?
             <div>
                 {jobsdata.map(j =>

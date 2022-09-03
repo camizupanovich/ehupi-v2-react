@@ -3,6 +3,7 @@ import Home from './components/Home';
 import Services from './components/Services';
 import About from './components/About';
 import Jobs from './components/Jobs';
+import Footer from './components/Footer';
 export default function App(){
     return(
         <>
@@ -26,6 +27,8 @@ export default function App(){
         <section id='services'><Services/></section>
         <section id='about'><About/></section>
         <section id='jobs'><Jobs/></section>
+
+        <Footer/>
         </>
     )
 }
