@@ -16,6 +16,8 @@ export default function Home(){
             <h4>
             We're here to turn your genius into software. You don't need to look any further, we are the team you need.
             </h4>
+            
+            <button className='btn-nav'>Get Start</button>
             </div>
             <img  className="img-hero" src='/img/illustrations/hero.png' alt='Ehupi' />
         </div>
